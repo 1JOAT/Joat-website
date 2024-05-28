@@ -56,7 +56,6 @@ button{
   color: rgb(155, 15, 155);
   background-color: rgb(177, 102, 187);
 }
-.return{
-  display: flex;
-  justify-content: space-between;
+h3{
+  line-height: 25px;
 }
