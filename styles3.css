@@ -2,7 +2,7 @@ body{
   background-color: thistle;
   background: radial-gradient(ellipse at 50% 50%, rgb(218, 104, 218), thistle);
   color: rgb(126, 48, 136);
-  height: 100vh;
+  height: 100%;
   display: grid;
   place-content: center;
 }
