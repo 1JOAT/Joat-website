@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Calculator</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <h1>Love Calculator</h1>
+  <h3>Curious about your love match? Calculate your love score and discover the strength of your potential relationship.</h3>
+  <p id="result2"></p>
+  <div class="container">
+    <div class="input1">
+      <h4>YOUR NAME</h4>
+      <input type="text" id="firstName" placeholder="Enter Your Name" class="input"><br>
+      <div>
+        <input type="radio" name="gender1" id="option1"><label>Male</label>
+        <input type="radio" name="gender1" id="option2"><label>Female</label>
+      </div>
+    </div>
+    
+    <div class="input2">
+      <h4>PARTNER'S NAME</h4>
+      <input type="text" id="secondName" placeholder="Enter Partner's Name" class="input"><br>
+      <div>
+        <input type="radio" name="gender" id="option3"><label>Female</label>
+        <input type="radio" name="gender" id="option4"><label>Male</label>
+      </div>
+    </div>
+    
+    <button onclick="calculate()">Calculate love %</button>
+    <h3 id="result"></h3><br>
+  </div>
+   
+  <div class="return">
+    <a href="index2.html">Mini Projects</a>
+    <a href="index.html">Home</a>
+
+    <script src="index3.js"></script>
+</body>
+</html>
