@@ -1,0 +1,56 @@
+.searchicon{
+  display: block;
+}
+.video1{
+  width: 100%;
+  margin-bottom: 9px;
+}
+.jointinfo1{
+  display: grid;
+  grid-template-columns: 35px 1fr;
+}
+.dp1{
+  width: 35px;
+  border-radius: 25px;
+}
+.channelpic1{
+  display: inline-block;
+  vertical-align: top;
+}
+.videodescription1{
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 15px;
+}
+.author1,
+.stats1{
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+}
+.videoinfo1{
+  margin-left: 15px;
+}
+.bigdiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+
+@media(min-width: 200px) and (max-width: 750px) {
+  .bigdiv {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+   .bigdiv{
+     grid-template-columns: 1fr 1fr 1fr;
+   }
+}  
+@media (min-width: 1000px) {
+  .bigdiv{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+

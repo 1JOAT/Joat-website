@@ -1,0 +1,85 @@
+body{
+  padding: 0;
+  display: grid;
+  place-content: center;
+  background-color: rgb(240, 240, 240);
+}
+
+h1{
+  text-align: center;
+  color: green;
+}
+
+
+.container{
+  border-radius: 20px;
+  background-color: rgb(235, 247, 240);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.15);
+  padding: 5px;
+  width: 350px;
+}
+#result{
+  color: green;
+  margin-left: 20px;
+  text-align: center;
+}
+.height, .weight, .age{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-left: 22px;
+  font-size: 20px;
+}
+.age{
+  margin-bottom: 10px;
+}
+.agechild{
+  margin-left: 80px;
+}
+.heightchild, .weightchild, .agechild{
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rosybrown;
+  
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.radio-Grid{
+  display: flex;
+  justify-content: space-evenly;
+}
+.button{
+   display: grid;
+   place-content: center;
+}
+button{
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  color: green;
+  background-color: white;
+}
+button:active{
+  opacity: 0.85;
+}
+.back{
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  color: black;
+}

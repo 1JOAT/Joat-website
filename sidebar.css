@@ -1,0 +1,37 @@
+.sidebar{
+  position: fixed;
+  top: 50px;
+  width: 70px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+}
+.sidebarlink{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin-bottom: px;
+  cursor: pointer;
+  height: 76px;
+}
+.sidebarlink:hover{
+  background-color: rgb(216, 213, 213);
+}
+.home,
+.explore,
+.subsriptionsidebar,
+.originals,
+.youtubemusic,
+.library{
+  width: 27px;
+}
+.back{
+  display: flex;
+  justify-content: center;
+  place-content: center;
+}
+a{
+  color: black;
+}

@@ -3,35 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Love Calculator</title>
-  <link rel="stylesheet" href="styles3.css">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/9225520c84.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Love Calculator</h1>
-  <h3>Curious about your love match? let's help you calculate your love score and discover the strength of your potential relationship.</h3>
-  <p id="result2"></p>
-  <div class="container">
-    <div class="input1">
-      <h4>YOUR NAME</h4>
-      <input type="text" id="firstName" placeholder="Enter Your Name" class="input"><br>
-      <div>
-        <input type="radio" name="gender1" id="option1"><label>Male</label>
-        <input type="radio" name="gender1" id="option2"><label>Female</label>
-      </div>
-    </div>
-    
-    <div class="input2">
-      <h4>PARTNER'S NAME</h4>
-      <input type="text" id="secondName" placeholder="Enter Partner's Name" class="input"><br>
-      <div>
-        <input type="radio" name="gender" id="option3"><label>Female</label>
-        <input type="radio" name="gender" id="option4"><label>Male</label>
-      </div>
-    </div>
-    
-    <button onclick="calculate()">Calculate love %</button>
-    <h3 id="result"></h3><br>
-  </div>
-    <script src="index3.js"></script>
+  <header class="header">
+    <h1 class="title">Joat's Portfolio.</h1>
+    <nav class="right-section">
+       <div class="nav-toggle" onclick="toggleNav()">
+         <i class="fa fa-bars" id="menu-icon"></i>
+       </div>
+       <ul class="nav-menu" id="nav-menu">
+        <li>
+          <a href="index2.html">
+            Projects
+           </a>
+        </li>
+        <li>
+          <a href="contact.html">
+            Contact Me.
+          </a>
+         </li>
+       </ul>
+    </nav>
+    <div class="right">
+     <a href="index2.html">Projects</a>
+     <a href="contact.html">Contact me</a>
+     </div>
+  </header>
+  <section>
+      <div class="description">
+        <h1 class="welcome">Welcome!</h1>
+        <p class="font-description">I go by the name Praise Oke, also known as (Joat), a unique multidisciplinary designer and developer with love for exploring the intersection of technology and human experience. My approach is collaborative, user-centered, and always curious.
+          With a strong passion for building efficient, scalable, and user-friendly applications, I bring a unique combination of technical expertise and leadership skills to drive projects forward.Let's connect and see how we can collaborate to bring your vision to life!</p>
+        </div>
+
+        <div class="grid">
+          <div class="img">
+            <img src="profile.jpg" >           
+         </div>
+          <div>
+            <div class="skills">
+              <h1>Technical skills</h1>
+              <li>
+                Languages: HTML5, CSS3, Javascript.
+              </li>
+              <li>
+                Libraries: React, Bootstrap. 
+              </li>
+              <li>
+                Version Control System: Git, GitHub.
+              </li>
+              <li>
+                Testing and debugging: Chrome Dev tools.
+              </li>
+              <li>
+                Web optimization and accesibility.  
+              </li>
+              <li>
+                Responsive design.
+              </li>
+            </div>
+            <div class="soft-skills">
+              <h1>Soft skills</h1>
+              <li>
+                Problem solving and adaptability: Strong analytical skills.
+              </li>
+              <li>
+                Time management: Effective prioritization, meating deadlines.
+              </li>
+              <li>
+                Efficient communication: Clear and concise communications.
+              </li>
+              <li>
+                Teamwork and collaboration: Agile methodologies.
+              </li>
+              <li>
+                Continuous learning: Staying up-to-date with industry trends and best practices.
+              </li>
+              <li>
+                Project management: Planning, execution, delivery
+              </li>
+              <li>
+                Creativity and Innovation: Out-of-the-box thinking, innovatie solutions.
+              </li>
+            </div>
+            <a href="index2.html">
+              <button class="mini-projects" > Projects</button>
+            </a>
+          </div>
+           
+          </div>
+  </section>
+
+  <script src="index.js"></script>
 </body>
 </html>

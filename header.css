@@ -1,0 +1,134 @@
+.header{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+.leftsection{
+  width: 200px;
+  display: flex;
+}
+.middlesection{
+  flex: 1;
+  display: flex;
+  max-width: 450px;
+  align-items: center;
+  
+}
+.searchicon{
+ flex: 1;
+ height: 30px;
+ width: 0px;
+ border-color: rgb(196, 196, 196);
+ border-style: solid;
+ border-width: 1px;
+ box-shadow: inset 2px, 3px, 5px,rgba(0, 0, 0, 0.15) ;
+}
+.voiceicon{
+  width: 23px;
+  padding-top: 4px;
+}
+.searchbutton{
+  width: 25px;
+  padding-top: 3px;
+}
+.searchicon::placeholder{
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hamburger{
+  width: 30px;
+  margin-left: 20px;
+}
+.logo{
+ width: 90px;
+ margin-left: 20px;
+}
+.button1{
+  height: 34px;
+  margin-left: -1px;
+  width: 60px;
+  border-color: rgb(196, 196, 196);
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.button2{
+  height: 37px;
+  border-radius: 20px;
+  margin-left: 10px;
+  border: none;
+  width: 40px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+}
+.rightsection{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.uploadicon,
+.ytappsicon,
+.notificationicon,
+.mychannelicon{
+  width: 25px;
+  cursor: pointer;
+}
+.searchhover{
+  background-color: grey;
+  color: white;
+  padding: 8px;
+  width: 50px;
+  position: absolute;
+  bottom: -50px;
+  opacity: 0;
+  pointer-events: none;
+}
+.button1:hover .searchhover,
+.button2:hover .voicesearch{
+  opacity: 1;
+}
+.voicesearch{
+  color: white;
+  background-color: grey;
+  position: absolute;
+  bottom: -43px;
+  padding: 6px;
+  pointer-events: none;
+  opacity: 0;
+  white-space: nowrap;
+}
+.notification{
+  position: relative;
+  margin-top: 6px;
+}
+.create{
+  position: absolute;
+  top: -2px;
+  right: -6px;
+  color: white;
+  background-color: rgb(177, 0, 0);
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 3px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+.mychannelicon{
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+}

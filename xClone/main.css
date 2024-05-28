@@ -1,0 +1,159 @@
+body{
+  background-color: rgb(14, 13, 13);
+  color: white;
+  margin: 0;
+  padding-top: 70px;
+  padding-left: 160px;
+}
+.dp1{
+  border-radius: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.post{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  max-width: 680px;
+  margin-top: -7px;
+  padding: 10px;
+}
+.otherPart{
+  margin-left: 10px;
+}
+input{
+  border: none;
+  width: 610px;
+  background-color: rgb(14, 13, 13);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: -5px;
+  outline: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+input::placeholder{
+  font-size: 24px;
+}
+.row3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  border-top: 1px solid rgb(24, 22, 22);
+}
+.icons{
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px;
+  justify-content: space-between;
+  max-width: 250px;
+  color: rgb(29, 155, 245);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.icons i{
+  cursor: pointer;
+  font-size: 20px;
+}
+.everyone{
+  display: inline-block;
+  color: rgb(29, 155, 245);
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: -10px;
+}
+.everyone:hover{
+  background-color: rgb(73, 73, 143);
+}
+h4{
+  margin: 0px;
+  display: inline-block;
+}
+.postbtn{
+  display: grid;
+  justify-content: right;
+  height: 37px;
+  margin-top: 10px;
+}
+.postbtn button{
+  background-color: rgb(29, 155, 245);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 70px;
+}
+a{
+  text-decoration: none;
+  color: rgb(29, 155, 245);
+  font-size: 21px;
+}
+.show-210-posts{
+  display: grid;
+  justify-content: center;
+  width: 700px;
+  border: 1px solid rgb(24, 22, 22);
+  border-top: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.instablog-posts{
+  border: 1px solid rgb(24, 22, 22);
+  border-top: none;
+  padding: 5px;
+  padding-top: 10px;
+  width: 690px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row1{
+  display: grid;
+  grid-template-columns: 50px 600px 1fr;
+}
+.post-pic{
+  border-radius: 40px;
+  width: 40px;
+  margin-left: 12px;
+}
+p{
+  margin: 0px;
+}
+.text1{
+  margin-left: 10px;
+  line-height: 22px;
+}
+.main-post{
+  font-size: 19px;
+  margin-top: 3px;
+}
+span{
+  color: rgb(70, 72, 72);
+}
+.dot3{
+  color: rgb(70, 72, 72);
+  cursor: pointer;
+}
+.sub-post img{
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.sub-post{
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 630px;
+  justify-content: right;
+}
+.comments{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 6px;
+}
+.sub-right{
+  display: flex;
+  margin-right: 5px;
+}
