@@ -6,6 +6,10 @@ body{
   display: grid;
   place-content: center;
 }
+body:focus{
+   outline: none;
+   box-shadow: none;
+}
 h1{
   text-align: center;
 }
