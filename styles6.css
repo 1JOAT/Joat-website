@@ -10,11 +10,16 @@ input[type=number]::-webkit-outer-spin-button{
   -webkit-appearance: none;
   margin: 0;
 }
+body:focus{
+   outline: none;
+   box-shadow: none;
+}
 .container{
   border-radius: 20px;
-  width: 370px;
+  width: 300px;
   padding: 15px;
-  background-color: rgb(248, 230, 230);
+  margin-top: 25px;
+  background-color: rgb(190, 190, 190);
 }
 #guess{
   height: 30px;
@@ -22,6 +27,7 @@ input[type=number]::-webkit-outer-spin-button{
 label{
   color: rgb(41, 39, 39);
   margin-right: 5px;
+  font-size: 15px;
 }
 h3{
   margin: 0px;
@@ -38,7 +44,8 @@ button{
   width: 200px;
   height: 30px;
   padding: 5px;
-  background-color: salmon;
+  background-color: black;
+  color: white;
   margin-bottom: 10px;
 }
 .button{
