@@ -19,7 +19,7 @@ body:focus{
 .header{
   display: flex;
   justify-content: space-between;
-  background-color: #c6ccda;
+  background-color: #5e5b5b;
   position: fixed;
   top: 0;
   right: 0;
