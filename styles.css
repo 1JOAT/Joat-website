@@ -12,6 +12,10 @@ body{
   text-align: justify;
   text-justify: distribute;
 }
+body:focus{
+   outline: none;
+   box-shadow: none;
+}
 .header{
   display: flex;
   justify-content: space-between;
