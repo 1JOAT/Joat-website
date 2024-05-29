@@ -4,6 +4,10 @@ body{
   place-content: center;
   background-color: rgb(240, 240, 240);
 }
+body:focus{
+   outline: none;
+   box-shadow: none;
+}
 
 h1{
   text-align: center;
@@ -16,7 +20,7 @@ h1{
   background-color: rgb(235, 247, 240);
   box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.15);
   padding: 5px;
-  width: 350px;
+  width: 330px;
 }
 #result{
   color: green;
