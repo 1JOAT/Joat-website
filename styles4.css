@@ -1,6 +1,10 @@
 body{
   background-color: rgb(202, 202, 202);
 }
+body:focus{
+   outline: none;
+   box-shadow: none;
+}
 
 .container{
   width: 100%;
