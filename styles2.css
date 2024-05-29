@@ -33,6 +33,7 @@ button:active{
 li {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 .home{
   color: rgb(0, 0, 2);
