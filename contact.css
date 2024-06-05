@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(131, 138, 138);
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    max-width: 100%;
+}
+.container{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(161, 176, 189);
+    padding: 30px;
+    max-width: 400px;
+}
+h1{
+    margin: 0;
+    margin-bottom: 17px;
+}
+hr{
+    width: 100px;
+    border: none;
+    height: 3px;
+    background-color: rgb(73, 73, 208);
+    border-radius: 13px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.message-div,
+.name-div,
+.country-div,
+.mail-div {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+}
+
+input{
+    height: 25px;
+    border-radius: 6px;
+    border-style: solid;
+    padding-left: 7px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+p{
+    margin: 0;
+}
+#message{
+   height: 65px;
+   border-radius: 10px;
+   resize: none;
+   padding: 5px;
+}
+.button{
+    display: grid;
+    margin-top: 10px;
+    place-content: center;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+    width:  120px;
+    color: #ffffff;
+    background-color: rgb(73, 73, 208);
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+.home-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+a{
+
+    color: rgb(0, 0, 0);
+}
