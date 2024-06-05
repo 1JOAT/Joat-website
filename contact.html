@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-  
+    <div class="container">
+        <form action="https://usebasin.com/f/912cbe1ff168" method="POST">
+          <h1 class="header">
+            Get in touch. <hr>
+          </h1>
+          <div class="name-div">      
+                <p>Name:</p><input id="name" autocomplete="name" name="name" type="text" required placeholder="Please Enter Your Name">
+          </div><br>
+          <div class="mail-div">       
+               <p>Email:</p><input name="email" autocomplete="email" type="email" placeholder="Please Enter Your E-mail" required>
+          </div><br>
+         
+          <div class="message-div">
+            <p>Message:</p>
+            <textarea name="message" id="message" 
+            placeholder="Type your message...."
+             maxlength="300" autocomplete="off" required></textarea>
+          </div><br>
+          <div class="button">
+            <button class="submit">Send</button>
+          </div>
+        </form>
+
+       
+    </div>
+    <div class="home-page">
+      <a href="index.html">Home</a>
+    </div>
+
 </body>
 </html>
