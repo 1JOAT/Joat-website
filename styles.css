@@ -6,7 +6,7 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color:  #000000;
   color: rgb(194, 189, 189);
-  padding-top: 50px;
+  padding-top: 43px;
   display: grid;
   place-content: center;
   text-align: justify;
@@ -136,7 +136,7 @@ section{
   border-radius: 40px;
   margin-top: 50px;
   margin-bottom: 30px;
-  margin-right: 80px;
+  margin-right: 50px;
   cursor: pointer;
   background-color: #fcfcfc;
   color: rgb(0, 0, 0);
