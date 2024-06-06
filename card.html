@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual card</title>
+    <link rel="stylesheet" href="stlye.css" >
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <h2>Design your digital business card in seconds and share to your contacts.
+    
+    </h2>
+    <h4 id="error"></h4>
+    <div class="container">
+        <h5>Fill in the details correctly...</h5>
+        <div class="name">
+            <input type="text" required placeholder="Firstname" id="firstName" autocomplete="name">
+        <input type="text" required placeholder="Lastname" id="lastName" autocomplete="name">
+        </div>
+        <div class="details">
+            <input type="text" placeholder="Business Name" required id="businessName"><br>
+            <input type="text" placeholder="Business Address" required id="businessAddress"><br>
+            <input type="email" required placeholder="Email" id="email" autocomplete="email"><br>
+            <input type="number" inputmode="numeric" placeholder="Phone number" required id="number" autocomplete="tel"><br>
+        </div>
+        
+        <div class="button-div">
+            
+                <button id="button" class="button" onclick="create()">Create</button>
+            
+        </div>
+    </div>
+    <div class="link">
+        <a href="./">Home</a>
+        <a href="miniproject">Project</a>
+    </div>
+
+
+    <div id="show">
+        
+        <div class="carddetails">
+            <h2 id="nameResult"></h2>
+            <h3 id="bussinessNameResult"></h3>
+            <h4 id="bussinessAddressResult"></h4>
+            <h3 id="emailResult"></h3>
+            <h3 id="numberResult"></h3>
+        </div>
+        
+        
+    </div>
+    
+    <script src="https://kit.fontawesome.com/9225520c84.js" crossorigin="anonymous"></script>
+</body>
+</html>
