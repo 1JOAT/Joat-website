@@ -117,7 +117,7 @@ body:focus{
   text-align: center;
 }
 section{
-  margin-top: 4%;
+  margin-top: 1%;
   margin-right: 4%;
   margin-left: 5%;
 }
@@ -220,6 +220,6 @@ p{
 }
 footer{
    display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #5e5b5b;
 }
