@@ -26,6 +26,9 @@ body:focus{
   left: 0;
   z-index: 1;
 }
+p a{
+  color: white;
+}
 .title{
   display: inline-block;
   margin: auto;
@@ -133,6 +136,7 @@ section{
   border-radius: 40px;
   margin-top: 50px;
   margin-bottom: 30px;
+  margin-right: 40px;
   cursor: pointer;
   background-color: #fcfcfc;
   color: rgb(0, 0, 0);
