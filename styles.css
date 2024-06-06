@@ -218,3 +218,8 @@ li{
 p{
   line-height: 30px;
 }
+footer{
+   display: flex;
+  justify-content: space-between;
+  background-color: #5e5b5b;
+}
