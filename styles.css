@@ -134,7 +134,7 @@ section{
 .buttondiv{
   display: flex;
   justify-content: center;
-
+}
 .mini-projects{
   width: 150px;
   border-radius: 40px;
