@@ -69,6 +69,7 @@ button:active{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    max-width: 350px;
 }
 a{
     color:#2e2e2e;
@@ -93,5 +94,16 @@ a{
    display: flex;
    flex-direction: column;
 
+}
+@media screen and (min-width: 768px) {
+    body{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+    }
+    #show{
+        height: 200px;
+        margin-top: 120px;
+    }
 }
 
