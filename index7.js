@@ -25,11 +25,11 @@ function create (){
     }
     else{
       show.classList.add("generatedcard")
-       nameResult.textContent = fullName;
-       bussinessNameResult.textContent = businessName;
-       bussinessAddressResult.textContent = businessAddress
-       emailResult.textContent = email;
-       numberResult.textContent = phoneNumber;
+       nameResult.textContent = `Name: ${fullName}`;
+       bussinessNameResult.textContent = `Business: ${businessName}`;
+       bussinessAddressResult.textContent = `Address: ${businessAddress}`;
+       emailResult.textContent = `Email: ${email}`;
+       numberResult.textContent = `Number: ${phoneNumber}`;
        
     }
 }
